@@ -1,0 +1,90 @@
+body{
+  max-width: 100rem;
+  margin: 1rem auto;
+}
+
+div {
+  border-left: hotpink 3px solid;
+    border-right: hotpink 3px solid;
+    border-top: hotpink 3px solid;
+    border-bottom: hotpink 3px solid;
+  padding: 20px 20px 20px 20px;
+}
+
+/*Rainbow*/
+.eightball {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f3b1.png) 36 36, auto;
+}
+
+/*Rainbow*/
+.cherry {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f352.png) 36 36, auto;
+}
+
+/*Rainbow*/
+.dice {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f3b2.png) 36 36, auto;
+}
+
+h1 {
+  font-family: "Gloock", serif;
+  font-size: 6rem;
+  text-align: center;
+  color: #5F9EA0;
+}
+
+h2 {
+  font-family: "Gloock", serif;
+  text-align: center;
+  color:#5F9EA0;
+  font-size: 2rem;
+}
+
+body {
+	 background-color: #F0FFFF;
+  font-family: Eczar;
+	 margin: 1rem auto;
+	 max-width: 80rem;
+}
+
+section {
+  display: flex;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #FF69B4;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -20px;
+  left: 40%;
+}
+
+.trophy:hover .tooltiptext{
+  visibility: visible;
+}
+
+.sky:hover .tooltiptext{
+  visibility: visible;
+}
+
+.grant:hover .tooltiptext{
+  visibility: visible;
+}
+
+figure{
+  position:sticky;
+  top: 3rem;
+}
+
+figure {
+  align-self: flex-start;
+  display: flex;
+  top: 3rem;
+  position: sticky;
+}
